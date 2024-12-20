@@ -1,5 +1,15 @@
 # Energy Consumption Forecasting
-Introduction
+
+## Introduction  
+Accurate energy demand forecasting is crucial for managing power systems, integrating renewables, and optimizing markets. Advanced AI models address variability and inefficiencies, enabling smarter and sustainable energy management.
+
+## Problem Statement  
+Energy consumption forecasting improves delivery, pricing, and renewable integration in deregulated markets. Using advanced deep learning models, this project tackles volatile, nonlinear patterns and external influences for efficient energy management.
+
+## Dataset Description
+
+## Data Preprocessing  
+Data was cleaned by converting text to CSV, merging Date and Time into Timestamp, interpolating missing values, rounding numbers, and saving the structured dataset for analysis.
 
 ## Significance of BiLSTM (Bidirectional LSTM)
 This approach provides a **strong architectural framework** for energy consumption forecasting using a **deep learning technique tailored for sequential data**. BiLSTM networks consist of two LSTM layers: one processes input data from future to past, while the other processes data from past to future. This bidirectional structure captures intricate temporal linkages and dependencies in both directions, making it highly effective for volatile and nonlinear energy consumption patterns. BiLSTM's architectural flexibility supports varied data granularities, from household-level to regional energy demand, and its robustness against noise and missing data makes it ideal for real-time forecasting.
