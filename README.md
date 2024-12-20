@@ -17,6 +17,9 @@ Energy consumption forecasting improves delivery, pricing, and renewable integra
 ## Data Preprocessing  
 Data was cleaned by converting text to CSV, merging Date and Time into Timestamp, interpolating missing values, rounding numbers, and saving the structured dataset for analysis.
 
+## Exploratory Data Analysis
+Our Exploratory Data Analysis (EDA) focuses on identifying key patterns and trends in energy consumption data that are relevant to multiple stakeholders. Through various visualizations, we aim to provide insights that can inform decision-making for governments, consumers, financial institutions, utilities, contractors, manufacturers, and non-governmental organizations (NGOs) involved in energy efficiency programs and initiatives.
+
 ## Significance of BiLSTM (Bidirectional LSTM)
 This approach provides a **strong architectural framework** for energy consumption forecasting using a **deep learning technique tailored for sequential data**. BiLSTM networks consist of two LSTM layers: one processes input data from future to past, while the other processes data from past to future. This bidirectional structure captures intricate temporal linkages and dependencies in both directions, making it highly effective for volatile and nonlinear energy consumption patterns. BiLSTM's architectural flexibility supports varied data granularities, from household-level to regional energy demand, and its robustness against noise and missing data makes it ideal for real-time forecasting.
 
