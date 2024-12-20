@@ -1,0 +1,3 @@
+Evaluation Metrics,,
+Model,MAPE,RMSE
+BiLSTM,0.10%,0.21
