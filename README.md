@@ -6,7 +6,13 @@ Accurate energy demand forecasting is crucial for managing power systems, integr
 ## Problem Statement  
 Energy consumption forecasting improves delivery, pricing, and renewable integration in deregulated markets. Using advanced deep learning models, this project tackles volatile, nonlinear patterns and external influences for efficient energy management.
 
-## Dataset Description
+## Dataset Overview  
+- 2,075,259 entries with 9 columns tracking electrical power consumption data.  
+- Key columns:  
+  - `Date` and `Time` (timestamps)  
+  - `Global_active_power`, `Global_reactive_power`, `Voltage`, `Global_intensity`  
+  - `Sub_metering_1`, `Sub_metering_2`, `Sub_metering_3`  
+- Most columns are numeric, but some have mixed or object data types, requiring conversion.
 
 ## Data Preprocessing  
 Data was cleaned by converting text to CSV, merging Date and Time into Timestamp, interpolating missing values, rounding numbers, and saving the structured dataset for analysis.
