@@ -40,4 +40,7 @@ This approach provides a **strong architectural framework** for energy consumpti
 
 ## Evaluation Metrics  
 - **MAPE (Mean Absolute Percentage Error)**: 0.10%  
-- **RMSE (Root Mean Squared Error)**: 0.21  
+- **RMSE (Root Mean Squared Error)**: 0.21
+
+## Conclusion
+The project uses BiLSTM for short-term energy forecasting, capturing time dependencies and improving prediction accuracy. Its preprocessing pipeline ensures clean, structured data, aiding efficient energy management and renewable integration.
