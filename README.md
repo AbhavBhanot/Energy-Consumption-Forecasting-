@@ -37,3 +37,7 @@ This approach provides a **strong architectural framework** for energy consumpti
 4. **Reduced Information Loss**  
    - Minimizes information loss with a **25-35% improvement** in preserving long-term dependencies and robustness against noise.  
    [Read more](https://arxiv.org/abs/1508.01991)
+
+## Evaluation Metrics  
+- **MAPE (Mean Absolute Percentage Error)**: 0.10%  
+- **RMSE (Root Mean Squared Error)**: 0.21  
