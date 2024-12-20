@@ -37,7 +37,8 @@ This approach provides a **strong architectural framework** for energy consumpti
 4. **Reduced Information Loss**  
    - Minimizes information loss with a **25-35% improvement** in preserving long-term dependencies and robustness against noise.  
    [Read more](https://arxiv.org/abs/1508.01991)
-The research is limited on 60 epochs since the optimal MAPE score was observed, any epoch > 60 resulted in similar output, likewise any epoch < 60 resulted in an upsurge of MAPE score hampering model performance and accuracy.
+
+#### The research is limited on 60 epochs since the optimal MAPE score was observed, any epoch > 60 resulted in similar output, likewise any epoch < 60 resulted in an upsurge of MAPE score hampering model performance and accuracy.
 
 ## Evaluation Metrics  
 - **MAPE (Mean Absolute Percentage Error)**: 0.10%  
